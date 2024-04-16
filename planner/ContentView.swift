@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  planner
 //
-//  Created by JaehyeonS on 4/15/24.
+//  Created by martin on 2024/04/16.
 //
 
 import SwiftUI
@@ -12,13 +12,15 @@ struct ContentView: View {
         VStack {
             Image(systemName: "globe")
                 .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("start!")
+                .foregroundColor(.accentColor)
+            Text("Hello, martin!")
         }
         .padding()
     }
 }
 
-#Preview {
-    ContentView()
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
 }
