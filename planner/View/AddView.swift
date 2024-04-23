@@ -9,7 +9,7 @@ import SwiftUI
 
 struct AddView: View {
     var body: some View {
-        Text("새 항목 추가!!")
+        Text("새 항목 추가!!!")
     }
 }
 
