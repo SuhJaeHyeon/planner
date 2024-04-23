@@ -11,9 +11,7 @@ import SwiftUI
 struct plannerApp: App {
     var body: some Scene {
         WindowGroup {
-            
-            ContentView()
-            
+            LoginView()
         }
     }
 }
